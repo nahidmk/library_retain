@@ -65,7 +65,7 @@ public interface BorrowApi {
     @RequestMapping(value = "/borrow/returndate/{date}",
         produces = { "application/xml", "application/json" }, 
         method = RequestMethod.GET)
-    ResponseEntity<List<Borrow>> findBorroByReturnDate(@ApiParam(value = "",required=true) @PathVariable("date") LocalDate date);
+    ResponseEntity<List<Borrow>> findBorroByReturnDate(@ApiParam(value = "",required=true) @PathVariable("date") String date);
 
 
     @ApiOperation(value = "Finds Member by Due date", nickname = "findBorrowByDueDate", notes = "return a list of Borrow by Due date", response = Borrow.class, responseContainer = "List", tags={ "Borrow", })
@@ -75,7 +75,7 @@ public interface BorrowApi {
     @RequestMapping(value = "/borrow/duedate/{date}",
         produces = { "application/xml", "application/json" }, 
         method = RequestMethod.GET)
-    ResponseEntity<List<Borrow>> findBorrowByDueDate(@ApiParam(value = "",required=true) @PathVariable("date") LocalDate date);
+    ResponseEntity<List<Borrow>> findBorrowByDueDate(@ApiParam(value = "",required=true) @PathVariable("date") String date);
 
 
     @ApiOperation(value = "Find Borrow by ID", nickname = "getBorrowById", notes = "Returns a single Borrow", response = Borrow.class, tags={ "Borrow", })

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc086e09-05e9-41cb-b40b-f231794d1bee" name="Default Changelist" comment="" />
+    <list default="true" id="fc086e09-05e9-41cb-b40b-f231794d1bee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/BorrowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/BorrowRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Service/BorrowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Service/BorrowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Repository/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Repository/MemberRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Service/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApiController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1icv6YiuW0jl0t8DOns3Qw5kRYq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,6 +55,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -63,6 +83,7 @@
       <workItem from="1602219520931" duration="6181000" />
       <workItem from="1602234536249" duration="8920000" />
       <workItem from="1602245840310" duration="5690000" />
+      <workItem from="1602317351857" duration="2895000" />
     </task>
     <servers />
   </component>
@@ -74,38 +95,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1602225814109" />
-    <state width="1237" height="132" key="GridCell.Tab.0.bottom" timestamp="1602251120645">
+    <state x="438" y="227" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602320490403">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602251120645" />
-    <state width="1237" height="132" key="GridCell.Tab.0.center" timestamp="1602251120645">
+    <state x="438" y="227" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1602320490403" />
+    <state width="1237" height="341" key="GridCell.Tab.0.bottom" timestamp="1602320745026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602251120645" />
-    <state width="1237" height="132" key="GridCell.Tab.0.left" timestamp="1602251120645">
+    <state width="1237" height="341" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602320745026" />
+    <state width="1237" height="341" key="GridCell.Tab.0.center" timestamp="1602320745026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602251120645" />
-    <state width="1237" height="132" key="GridCell.Tab.0.right" timestamp="1602251120645">
+    <state width="1237" height="341" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602320745026" />
+    <state width="1237" height="341" key="GridCell.Tab.0.left" timestamp="1602320745025">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602251120645" />
-    <state width="1237" height="132" key="GridCell.Tab.1.bottom" timestamp="1602251120646">
+    <state width="1237" height="341" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602320745025" />
+    <state width="1237" height="341" key="GridCell.Tab.0.right" timestamp="1602320745026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602251120646" />
-    <state width="1237" height="132" key="GridCell.Tab.1.center" timestamp="1602251120646">
+    <state width="1237" height="341" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602320745026" />
+    <state width="1237" height="341" key="GridCell.Tab.1.bottom" timestamp="1602320745028">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602251120646" />
-    <state width="1237" height="132" key="GridCell.Tab.1.left" timestamp="1602251120645">
+    <state width="1237" height="341" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602320745028" />
+    <state width="1237" height="341" key="GridCell.Tab.1.center" timestamp="1602320745027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602251120645" />
-    <state width="1237" height="132" key="GridCell.Tab.1.right" timestamp="1602251120646">
+    <state width="1237" height="341" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602320745027" />
+    <state width="1237" height="341" key="GridCell.Tab.1.left" timestamp="1602320745027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="132" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602251120646" />
+    <state width="1237" height="341" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602320745027" />
+    <state width="1237" height="341" key="GridCell.Tab.1.right" timestamp="1602320745027">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="341" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602320745027" />
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1602245932556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

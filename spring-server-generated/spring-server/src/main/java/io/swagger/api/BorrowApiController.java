@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
+import org.threeten.bp.LocalDate;
 
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.List;
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-10-09T04:56:53.355Z")
 
@@ -63,12 +63,12 @@ public class BorrowApiController implements BorrowApi {
         return ResponseEntity.ok(borrowService.findAllBorrow());
     }
 
-    public ResponseEntity<List<Borrow>> findBorroByReturnDate(@ApiParam(value = "",required=true) @PathVariable("date") LocalDate date) {
-        return ResponseEntity.ok(borrowService.findBorroByReturnDate(date));
+    public ResponseEntity<List<Borrow>> findBorroByReturnDate(@ApiParam(value = "",required=true) @PathVariable("date") String date) {
+        return ResponseEntity.ok(borrowService.findBorroByReturnDate(LocalDate.parse(date)));
     }
 
-    public ResponseEntity<List<Borrow>> findBorrowByDueDate(@ApiParam(value = "",required=true) @PathVariable("date") LocalDate date) {
-        return ResponseEntity.ok(borrowService.findBorrowByDueDate(date));
+    public ResponseEntity<List<Borrow>> findBorrowByDueDate(@ApiParam(value = "",required=true) @PathVariable("date") String date) {
+        return ResponseEntity.ok(borrowService.findBorrowByDueDate(LocalDate.parse(date)));
     }
 
     public ResponseEntity<Borrow> getBorrowById(@ApiParam(value = "ID of Borrow to return",required=true) @PathVariable("Id") Long id) {
