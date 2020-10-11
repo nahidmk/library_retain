@@ -69,14 +69,8 @@ public class MemberService {
 
 
 
-    public Member getMemberByName(String name) throws NotFoundException {
-        if(memberRepository.existsByName(name))
-        {
-            return memberRepository.findByName(name);
-        }else{
-            throw new NotFoundException(404,"notFount");
-        }
-
+    public List<Member> getMemberByName(String name)  {
+        return memberRepository.findByName(name);
     }
 
     public void updateMember(Member body) throws NotFoundException {

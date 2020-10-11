@@ -2,20 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc086e09-05e9-41cb-b40b-f231794d1bee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/WebServiceInfoApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/WebServiceInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/model/WebServiceInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/BorrowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/BorrowRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Service/BorrowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Service/BorrowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/PublisherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/PublisherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Service/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Service/PublisherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Service/PublisherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/BookApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/BookApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/BookApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/BookApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/PublishApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/PublishApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/PublishApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/PublishApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Repository/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Repository/BorrowRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Repository/BorrowRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Repository/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Repository/MemberRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Repository/PublisherRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Repository/PublisherRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Service/BorrowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Service/BorrowService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Service/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Service/PublisherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Service/PublisherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/BookApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/BookApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/BookApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/BookApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/BorrowApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/BorrowApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/BorrowApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/BorrowApiController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/PublishApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/PublishApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/PublishApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/PublishApiController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +104,8 @@
       <workItem from="1602234536249" duration="8920000" />
       <workItem from="1602245840310" duration="5690000" />
       <workItem from="1602317351857" duration="2895000" />
+      <workItem from="1602389898132" duration="4862000" />
+      <workItem from="1602404586219" duration="1730000" />
     </task>
     <servers />
   </component>
@@ -91,49 +113,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1602225814109">
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1602390730061">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1602225814109" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1602390730061" />
     <state x="438" y="227" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602320490403">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="227" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1602320490403" />
-    <state width="1237" height="341" key="GridCell.Tab.0.bottom" timestamp="1602320745026">
+    <state width="1237" height="341" key="GridCell.Tab.0.bottom" timestamp="1602405767208">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602320745026" />
-    <state width="1237" height="341" key="GridCell.Tab.0.center" timestamp="1602320745026">
+    <state width="1237" height="341" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602405767208" />
+    <state width="1237" height="341" key="GridCell.Tab.0.center" timestamp="1602405767207">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602320745026" />
-    <state width="1237" height="341" key="GridCell.Tab.0.left" timestamp="1602320745025">
+    <state width="1237" height="341" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602405767207" />
+    <state width="1237" height="341" key="GridCell.Tab.0.left" timestamp="1602405767206">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602320745025" />
-    <state width="1237" height="341" key="GridCell.Tab.0.right" timestamp="1602320745026">
+    <state width="1237" height="341" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602405767206" />
+    <state width="1237" height="341" key="GridCell.Tab.0.right" timestamp="1602405767207">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602320745026" />
-    <state width="1237" height="341" key="GridCell.Tab.1.bottom" timestamp="1602320745028">
+    <state width="1237" height="341" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602405767207" />
+    <state width="1237" height="341" key="GridCell.Tab.1.bottom" timestamp="1602405767209">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602320745028" />
-    <state width="1237" height="341" key="GridCell.Tab.1.center" timestamp="1602320745027">
+    <state width="1237" height="341" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602405767209" />
+    <state width="1237" height="341" key="GridCell.Tab.1.center" timestamp="1602405767208">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602320745027" />
-    <state width="1237" height="341" key="GridCell.Tab.1.left" timestamp="1602320745027">
+    <state width="1237" height="341" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602405767208" />
+    <state width="1237" height="341" key="GridCell.Tab.1.left" timestamp="1602405767208">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602320745027" />
-    <state width="1237" height="341" key="GridCell.Tab.1.right" timestamp="1602320745027">
+    <state width="1237" height="341" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602405767208" />
+    <state width="1237" height="341" key="GridCell.Tab.1.right" timestamp="1602405767209">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="341" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602320745027" />
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1602245932556">
+    <state width="1237" height="341" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602405767209" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1602404587434">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1602245932556" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1602404587434" />
   </component>
 </project>

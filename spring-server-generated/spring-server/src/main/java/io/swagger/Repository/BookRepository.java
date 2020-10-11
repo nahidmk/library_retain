@@ -10,6 +10,6 @@ import java.util.List;
 public interface BookRepository extends JpaRepository<Book,Long> {
     public List<Book> findByAuthor(String name);
     public boolean existsByTitle(String title);
-    public Book findByTitle(String title);
+    public List<Book> findByTitle(String title);
     Book findById(Long id);
 }

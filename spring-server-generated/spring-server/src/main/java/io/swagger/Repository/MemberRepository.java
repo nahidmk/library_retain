@@ -14,7 +14,7 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
     public List<Member> findByJoiningDate(LocalDate date);
     public List<Member> findByExpireDate(LocalDate date);
     public List<Member> findByMemberType(Member.MemberTypeEnum Type);
-    public Member findByName(String name);
+    public List<Member> findByName(String name);
     public boolean existsByName(String name);
     Member findById (Long id);
 }

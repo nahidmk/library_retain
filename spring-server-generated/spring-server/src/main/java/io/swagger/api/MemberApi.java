@@ -102,7 +102,7 @@ public interface MemberApi {
     ResponseEntity<Member> getMemberById(@ApiParam(value = "ID of Member to return",required=true) @PathVariable("Id") Long id);
 
 
-    @ApiOperation(value = "Find Member by Name", nickname = "getMemberByName", notes = "Returns a single Member", response = Member.class, tags={ "Member", })
+    @ApiOperation(value = "Find Member by Name", nickname = "getMemberByName", notes = "Returns a list of  Member", response = Member.class, tags={ "Member", })
     @ApiResponses(value = { 
         @ApiResponse(code = 200, message = "successful operation", response = Member.class),
         @ApiResponse(code = 400, message = "Invalid Name supplied"),
@@ -110,7 +110,7 @@ public interface MemberApi {
     @RequestMapping(value = "/member/by/{name}",
         produces = { "application/xml", "application/json" }, 
         method = RequestMethod.GET)
-    ResponseEntity<Member> getMemberByName(@ApiParam(value = "ID of member to return",required=true) @PathVariable("name") String name);
+    ResponseEntity<List<Member>> getMemberByName(@ApiParam(value = "ID of member to return",required=true) @PathVariable("name") String name);
 
 
     @ApiOperation(value = "Update an existing Member", nickname = "updateMember", notes = "", tags={ "Member", })

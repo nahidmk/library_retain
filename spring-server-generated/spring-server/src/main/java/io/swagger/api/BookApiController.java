@@ -78,16 +78,9 @@ public class BookApiController implements BookApi {
 
     }
 
-    public ResponseEntity<Book> getBookByTitle(@ApiParam(value = "Title of Book to return",required=true) @PathVariable("title") String title) {
+    public ResponseEntity<List<Book>> getBookByTitle(@ApiParam(value = "Title of Book to return",required=true) @PathVariable("title") String title) {
 
-        try {
-            Book book = bookService.getBookByTitle(title);
-            return ResponseEntity.ok(book);
-        } catch (NotFoundException e) {
-            e.printStackTrace();
-        }
-        return ResponseEntity.notFound().build();
-
+        return ResponseEntity.ok(bookService.getBookByTitle(title));
     }
 
     public ResponseEntity<Void> updateBook(@ApiParam(value = "Book object that needs to be added" ,required=true )  @Valid @RequestBody Book body) {

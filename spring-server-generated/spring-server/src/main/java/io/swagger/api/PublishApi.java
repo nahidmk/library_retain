@@ -57,7 +57,7 @@ public interface PublishApi {
     ResponseEntity<List<Publisher>> findAllPublish();
 
 
-    @ApiOperation(value = "Find publisher by name", nickname = "getPublisherByName", notes = "Returns a single publisher", response = Publisher.class, tags={ "Publisher", })
+    @ApiOperation(value = "Find publisher by name", nickname = "getPublisherByName", notes = "Returns a List of publisher", response = Publisher.class, tags={ "Publisher", })
     @ApiResponses(value = { 
         @ApiResponse(code = 200, message = "successful operation", response = Publisher.class),
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
@@ -65,7 +65,7 @@ public interface PublishApi {
     @RequestMapping(value = "/publish/by/{name}",
         produces = { "application/xml", "application/json" }, 
         method = RequestMethod.GET)
-    ResponseEntity<Publisher> getPublisherByName(@ApiParam(value = "ID of puhlisher to return",required=true) @PathVariable("name") String name);
+    ResponseEntity<List<Publisher>> getPublisherByName(@ApiParam(value = "ID of puhlisher to return",required=true) @PathVariable("name") String name);
 
 
     @ApiOperation(value = "Find publisher by ID", nickname = "getpublisherById", notes = "Returns a single publisher", response = Publisher.class, tags={ "Publisher", })

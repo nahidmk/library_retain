@@ -39,14 +39,8 @@ public class PublisherService  {
     }
 
 
-    public Publisher getPublisherByName(String name) throws NotFoundException{
-        if(publisherRepository.existsByName(name))
-        {
-            return publisherRepository.findByName(name);
-        }else
-        {
-            throw new NotFoundException(404,"notFount");
-        }
+    public List<Publisher> getPublisherByName(String name) {
+        return publisherRepository.findByName(name);
     }
 
 

@@ -62,15 +62,9 @@ public class PublishApiController implements PublishApi {
         return ResponseEntity.ok(publisherService.findAllPublish());
     }
 
-    public ResponseEntity<Publisher> getPublisherByName(@ApiParam(value = "ID of puhlisher to return",required=true) @PathVariable("name") String name) {
+    public ResponseEntity<List<Publisher>> getPublisherByName(@ApiParam(value = "ID of puhlisher to return",required=true) @PathVariable("name") String name) {
 
-        try {
-            Publisher publisher = publisherService.getPublisherByName(name);
-            return ResponseEntity.ok(publisher);
-        } catch (NotFoundException e) {
-            e.printStackTrace();
-            return ResponseEntity.notFound().build();
-        }
+        return ResponseEntity.ok(publisherService.getPublisherByName(name));
     }
 
     public ResponseEntity<Publisher> getpublisherById(@ApiParam(value = "ID of publisher to return",required=true) @PathVariable("Id") Long id) {

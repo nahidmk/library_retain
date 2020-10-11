@@ -50,14 +50,8 @@ public class BookService {
     }
 
 
-    public Book getBookByTitle(String title) throws NotFoundException {
-        if(bookRepository.existsByTitle(title))
-        {
-           return bookRepository.findByTitle(title);
-        }else
-        {
-            throw new NotFoundException(404,"notFount");
-        }
+    public List<Book> getBookByTitle(String title)  {
+        return bookRepository.findByTitle(title);
     }
 
 

@@ -88,14 +88,8 @@ public class MemberApiController implements MemberApi {
     }
 
 
-    public ResponseEntity<Member> getMemberByName(@ApiParam(value = "Name of member to return",required=true) @PathVariable("name") String name) {
-        try {
-            Member member = memberService.getMemberByName(name);
-            return ResponseEntity.ok(member);
-        } catch (NotFoundException e) {
-            e.printStackTrace();
-            return ResponseEntity.notFound().build();
-        }
+    public ResponseEntity<List<Member>> getMemberByName(@ApiParam(value = "Name of member to return",required=true) @PathVariable("name") String name) {
+    return ResponseEntity.ok(memberService.getMemberByName(name));
 
     }
 

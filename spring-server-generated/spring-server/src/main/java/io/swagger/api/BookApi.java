@@ -78,7 +78,7 @@ public interface BookApi {
     ResponseEntity<Book> getBookById(@ApiParam(value = "ID of Book to return",required=true) @PathVariable("Id") Long id);
 
 
-    @ApiOperation(value = "Find book by title", nickname = "getBookByTitle", notes = "Returns a single Book", response = Book.class, tags={ "Books", })
+    @ApiOperation(value = "Find book by title", nickname = "getBookByTitle", notes = "Returns a List of Book By same title", response = Book.class, tags={ "Books", })
     @ApiResponses(value = { 
         @ApiResponse(code = 200, message = "successful operation", response = Book.class),
         @ApiResponse(code = 400, message = "Invalid Title supplied"),
@@ -86,7 +86,7 @@ public interface BookApi {
     @RequestMapping(value = "/book/by/{title}",
         produces = { "application/xml", "application/json" }, 
         method = RequestMethod.GET)
-    ResponseEntity<Book> getBookByTitle(@ApiParam(value = "Title of Book to return",required=true) @PathVariable("title") String title);
+    ResponseEntity<List<Book>> getBookByTitle(@ApiParam(value = "Title of Book to return",required=true) @PathVariable("title") String title);
 
 
     @ApiOperation(value = "Update an existing Book", nickname = "updateBook", notes = "", tags={ "Books", })
