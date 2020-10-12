@@ -31,8 +31,8 @@ public interface PublishApi {
     @ApiResponses(value = { 
         @ApiResponse(code = 405, message = "Invalid input") })
     @RequestMapping(value = "/publish",
-        produces = { "application/xml", "application/json" }, 
-        consumes = { "application/json", "application/xml" },
+        produces = {  "application/json" },
+        consumes = { "application/json" },
         method = RequestMethod.POST)
     ResponseEntity<Void> addPublish(@ApiParam(value = "publisher object that needs to be added" ,required=true )  @Valid @RequestBody Publisher body);
 
@@ -42,7 +42,7 @@ public interface PublishApi {
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
         @ApiResponse(code = 404, message = "Publisher not found") })
     @RequestMapping(value = "/publish/{Id}",
-        produces = { "application/xml", "application/json" }, 
+        produces = { "application/json" },
         method = RequestMethod.DELETE)
     ResponseEntity<Void> deletePublisher(@ApiParam(value = "Publisher id to delete",required=true) @PathVariable("Id") Long id);
 
@@ -52,7 +52,7 @@ public interface PublishApi {
         @ApiResponse(code = 200, message = "successful operation", response = Publisher.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid value") })
     @RequestMapping(value = "/publish",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Publisher>> findAllPublish();
 
@@ -63,7 +63,7 @@ public interface PublishApi {
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
         @ApiResponse(code = 404, message = "publisher not found") })
     @RequestMapping(value = "/publish/by/{name}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Publisher>> getPublisherByName(@ApiParam(value = "ID of puhlisher to return",required=true) @PathVariable("name") String name);
 
@@ -74,7 +74,7 @@ public interface PublishApi {
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
         @ApiResponse(code = 404, message = "publisher not found") })
     @RequestMapping(value = "/publish/{Id}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<Publisher> getpublisherById(@ApiParam(value = "ID of publisher to return",required=true) @PathVariable("Id") Long id);
 
@@ -85,8 +85,8 @@ public interface PublishApi {
         @ApiResponse(code = 404, message = "publish not found"),
         @ApiResponse(code = 405, message = "Validation exception") })
     @RequestMapping(value = "/publish",
-        produces = { "application/xml", "application/json" }, 
-        consumes = { "application/json", "application/xml" },
+        produces = {  "application/json" },
+        consumes = { "application/json" },
         method = RequestMethod.PUT)
     ResponseEntity<Void> updatepublish(@ApiParam(value = "publish object that needs to be added" ,required=true )  @Valid @RequestBody Publisher body);
 

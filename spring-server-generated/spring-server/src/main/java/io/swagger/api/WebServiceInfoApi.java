@@ -21,7 +21,7 @@ public interface WebServiceInfoApi {
             @ApiResponse(code = 400, message = "Invalid value supplied"),
             @ApiResponse(code = 404, message = "Web service information not found") })
     @RequestMapping(value = "/web-service-info",
-            produces = { "application/xml", "application/json" },
+            produces = {  "application/json" },
             method = RequestMethod.GET)
     ResponseEntity<WebServiceInfo> getWebServiceInfo();
 

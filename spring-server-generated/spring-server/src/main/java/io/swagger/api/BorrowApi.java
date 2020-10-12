@@ -32,8 +32,8 @@ public interface BorrowApi {
     @ApiResponses(value = { 
         @ApiResponse(code = 405, message = "Invalid input") })
     @RequestMapping(value = "/borrow",
-        produces = { "application/xml", "application/json" }, 
-        consumes = { "application/json", "application/xml" },
+        produces = {  "application/json" },
+        consumes = { "application/json" },
         method = RequestMethod.POST)
     ResponseEntity<Void> addBorrow(@ApiParam(value = "Brorow object that needs to be added" ,required=true )  @Valid @RequestBody Borrow body);
 
@@ -43,7 +43,7 @@ public interface BorrowApi {
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
         @ApiResponse(code = 404, message = "Borrow not found") })
     @RequestMapping(value = "/borrow/{Id}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.DELETE)
     ResponseEntity<Void> deleteBorrow(@ApiParam(value = "Borrow id to delete",required=true) @PathVariable("Id") Long id);
 
@@ -53,7 +53,7 @@ public interface BorrowApi {
         @ApiResponse(code = 200, message = "successful operation", response = Borrow.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid value") })
     @RequestMapping(value = "/borrow",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Borrow>> findAllBorrow();
 
@@ -63,7 +63,7 @@ public interface BorrowApi {
         @ApiResponse(code = 200, message = "successful operation", response = Borrow.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid Date value") })
     @RequestMapping(value = "/borrow/returndate/{date}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Borrow>> findBorroByReturnDate(@ApiParam(value = "",required=true) @PathVariable("date") String date);
 
@@ -73,7 +73,7 @@ public interface BorrowApi {
         @ApiResponse(code = 200, message = "successful operation", response = Borrow.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid Date value") })
     @RequestMapping(value = "/borrow/duedate/{date}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Borrow>> findBorrowByDueDate(@ApiParam(value = "",required=true) @PathVariable("date") String date);
 
@@ -84,7 +84,7 @@ public interface BorrowApi {
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
         @ApiResponse(code = 404, message = "Borrow not found") })
     @RequestMapping(value = "/borrow/{Id}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<Borrow> getBorrowById(@ApiParam(value = "ID of Borrow to return",required=true) @PathVariable("Id") Long id);
 
@@ -95,8 +95,8 @@ public interface BorrowApi {
         @ApiResponse(code = 404, message = "Borrow not found"),
         @ApiResponse(code = 405, message = "Validation exception") })
     @RequestMapping(value = "/borrow",
-        produces = { "application/xml", "application/json" }, 
-        consumes = { "application/json", "application/xml" },
+        produces = { "application/json" },
+        consumes = { "application/json"},
         method = RequestMethod.PUT)
     ResponseEntity<Void> updateBorrow(@ApiParam(value = "Borrow object that needs to be added" ,required=true )  @Valid @RequestBody Borrow body);
 

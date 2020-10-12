@@ -31,8 +31,8 @@ public interface BookApi {
     @ApiResponses(value = { 
         @ApiResponse(code = 405, message = "Invalid input") })
     @RequestMapping(value = "/book",
-        produces = { "application/xml", "application/json" }, 
-        consumes = { "application/json", "application/xml" },
+        produces = { "application/json" },
+        consumes = { "application/json" },
         method = RequestMethod.POST)
     ResponseEntity<Void> addBook(@ApiParam(value = "Book object that needs to be added" ,required=true )  @Valid @RequestBody Book body);
 
@@ -42,7 +42,7 @@ public interface BookApi {
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
         @ApiResponse(code = 404, message = "Book not found") })
     @RequestMapping(value = "/book/{Id}",
-        produces = { "application/xml", "application/json" }, 
+        produces = { "application/json" },
         method = RequestMethod.DELETE)
     ResponseEntity<Void> deleteBook(@ApiParam(value = "Book id to delete",required=true) @PathVariable("Id") Long id);
 
@@ -52,7 +52,7 @@ public interface BookApi {
         @ApiResponse(code = 200, message = "successful operation", response = Book.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid value") })
     @RequestMapping(value = "/book",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Book>> findAllBook();
 
@@ -62,7 +62,7 @@ public interface BookApi {
         @ApiResponse(code = 200, message = "successful operation", response = Book.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid Author value") })
     @RequestMapping(value = "/book/find/{author}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Book>> findBookByAuthor(@ApiParam(value = "",required=true) @PathVariable("author") String author);
 
@@ -73,7 +73,7 @@ public interface BookApi {
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
         @ApiResponse(code = 404, message = "Book not found") })
     @RequestMapping(value = "/book/{Id}",
-        produces = { "application/xml", "application/json" }, 
+        produces = { "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<Book> getBookById(@ApiParam(value = "ID of Book to return",required=true) @PathVariable("Id") Long id);
 
@@ -84,7 +84,7 @@ public interface BookApi {
         @ApiResponse(code = 400, message = "Invalid Title supplied"),
         @ApiResponse(code = 404, message = "Book not found") })
     @RequestMapping(value = "/book/by/{title}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Book>> getBookByTitle(@ApiParam(value = "Title of Book to return",required=true) @PathVariable("title") String title);
 
@@ -95,8 +95,8 @@ public interface BookApi {
         @ApiResponse(code = 404, message = "Book not found"),
         @ApiResponse(code = 405, message = "Validation exception") })
     @RequestMapping(value = "/book",
-        produces = { "application/xml", "application/json" }, 
-        consumes = { "application/json", "application/xml" },
+        produces = {  "application/json" },
+        consumes = { "application/json" },
         method = RequestMethod.PUT)
     ResponseEntity<Void> updateBook(@ApiParam(value = "Book object that needs to be added" ,required=true )  @Valid @RequestBody Book body);
 

@@ -2,40 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc086e09-05e9-41cb-b40b-f231794d1bee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/WebServiceInfoApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/WebServiceInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/swagger/model/WebServiceInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/PublisherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Repository/PublisherRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/Service/PublisherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/Service/PublisherService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/BookApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/BookApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/BookApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/BookApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/BorrowApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/MemberApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/PublishApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/PublishApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/PublishApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/PublishApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Repository/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Repository/BorrowRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Repository/BorrowRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Repository/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Repository/MemberRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Repository/PublisherRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Repository/PublisherRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Service/BorrowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Service/BorrowService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Service/MemberService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/Service/PublisherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/Service/PublisherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/swagger/api/WebServiceInfoApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/api/WebServiceInfoApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/BookApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/BookApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/BookApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/BookApiController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/BorrowApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/BorrowApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/BorrowApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/BorrowApiController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/MemberApiController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/PublishApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/PublishApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/PublishApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/PublishApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/swagger/api/WebServiceInfoApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/swagger/api/WebServiceInfoApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +83,8 @@
       <workItem from="1602317351857" duration="2895000" />
       <workItem from="1602389898132" duration="4862000" />
       <workItem from="1602404586219" duration="1730000" />
+      <workItem from="1602489647307" duration="597000" />
+      <workItem from="1602490787662" duration="594000" />
     </task>
     <servers />
   </component>
@@ -153,9 +132,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="341" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602405767209" />
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1602404587434">
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1602490738046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1602404587434" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1602490738046" />
   </component>
 </project>

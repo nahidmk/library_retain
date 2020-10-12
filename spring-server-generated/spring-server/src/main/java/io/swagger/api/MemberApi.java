@@ -35,8 +35,8 @@ public interface MemberApi {
     @ApiResponses(value = { 
         @ApiResponse(code = 405, message = "Invalid input") })
     @RequestMapping(value = "/member",
-        produces = { "application/xml", "application/json" }, 
-        consumes = { "application/json", "application/xml" },
+        produces = {  "application/json" },
+        consumes = { "application/json" },
         method = RequestMethod.POST)
     ResponseEntity<Void> addMember(@ApiParam(value = "Member object that needs to be added" ,required=true )  @Valid @RequestBody Member body);
 
@@ -46,7 +46,7 @@ public interface MemberApi {
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
         @ApiResponse(code = 404, message = "Publisher not found") })
     @RequestMapping(value = "/member/{Id}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.DELETE)
     ResponseEntity<Void> deleteMember(@ApiParam(value = "Publisher id to delete",required=true) @PathVariable("Id") Long id);
 
@@ -56,7 +56,7 @@ public interface MemberApi {
         @ApiResponse(code = 200, message = "successful operation", response = Member.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid value") })
     @RequestMapping(value = "/member",
-        produces = { "application/xml", "application/json" }, 
+        produces = { "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Member>> findAllMember();
 
@@ -66,7 +66,7 @@ public interface MemberApi {
         @ApiResponse(code = 200, message = "successful operation", response = Member.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid Date value") })
     @RequestMapping(value = "/member/expiredate/{date}",
-        produces = { "application/xml", "application/json" }, 
+        produces = { "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Member>> findMemberByExpireDate(@ApiParam(value = "",required=true) @PathVariable("date") String date);
 
@@ -76,7 +76,7 @@ public interface MemberApi {
         @ApiResponse(code = 200, message = "successful operation", response = Member.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid Date value") })
     @RequestMapping(value = "/member/joindate/{date}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Member>> findMemberByJoiningDate(@ApiParam(value = "",required=true) @PathVariable("date")  String date);
 
@@ -86,7 +86,7 @@ public interface MemberApi {
         @ApiResponse(code = 200, message = "successful operation", response = Member.class, responseContainer = "List"),
         @ApiResponse(code = 400, message = "Invalid type value") })
     @RequestMapping(value = "/member/type/{type}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Member>> findMemberByType(@ApiParam(value = "",required=true) @PathVariable("type") Member.MemberTypeEnum type);
 
@@ -97,7 +97,7 @@ public interface MemberApi {
         @ApiResponse(code = 400, message = "Invalid ID supplied"),
         @ApiResponse(code = 404, message = "Member not found") })
     @RequestMapping(value = "/member/{Id}",
-        produces = { "application/xml", "application/json" }, 
+        produces = {  "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<Member> getMemberById(@ApiParam(value = "ID of Member to return",required=true) @PathVariable("Id") Long id);
 
@@ -108,7 +108,7 @@ public interface MemberApi {
         @ApiResponse(code = 400, message = "Invalid Name supplied"),
         @ApiResponse(code = 404, message = "Member not found") })
     @RequestMapping(value = "/member/by/{name}",
-        produces = { "application/xml", "application/json" }, 
+        produces = { "application/json" },
         method = RequestMethod.GET)
     ResponseEntity<List<Member>> getMemberByName(@ApiParam(value = "ID of member to return",required=true) @PathVariable("name") String name);
 
@@ -119,8 +119,8 @@ public interface MemberApi {
         @ApiResponse(code = 404, message = "Member not found"),
         @ApiResponse(code = 405, message = "Validation exception") })
     @RequestMapping(value = "/member",
-        produces = { "application/xml", "application/json" }, 
-        consumes = { "application/json", "application/xml" },
+        produces = {  "application/json" },
+        consumes = { "application/json" },
         method = RequestMethod.PUT)
     ResponseEntity<Void> updateMember(@ApiParam(value = "Member object that needs to be added" ,required=true )  @Valid @RequestBody Member body);
 
